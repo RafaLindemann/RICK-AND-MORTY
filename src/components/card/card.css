@@ -1,12 +1,24 @@
 .card {
   border-radius: 20px;
   display: grid;
-  background: #064906;
+  background: linear-gradient(
+    to top,
+    #dbdcd7 0%,
+    #dddcd7 24%,
+    #e2c9cc 30%,
+    #e7627d 46%,
+    #b8235a 59%,
+    #801357 71%,
+    #3d1635 84%,
+    #1c1a27 100%
+  );
   color: rgb(0, 0, 0);
   border: solid;
 }
 
 .card__portrait {
+  margin: 20px;
+  border-radius: 20px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
