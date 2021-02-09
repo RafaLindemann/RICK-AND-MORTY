@@ -1,0 +1,27 @@
+.card {
+  border-radius: 20px;
+  display: grid;
+  background: #064906;
+  color: rgb(0, 0, 0);
+  border: solid;
+}
+
+.card__portrait {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card__info {
+  padding: 0 20px;
+}
+
+.info__name {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
